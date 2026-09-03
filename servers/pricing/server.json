@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.goodpostal/pricing",
+  "title": "GoodPostal Pricing",
+  "description": "Free, no-login pricing data for 13 email platforms and sending services, refreshed weekly.",
+  "version": "3.3.0",
+  "websiteUrl": "https://goodpostal.com/pricing",
+  "repository": {
+    "url": "https://github.com/goodpostal/mcp-server",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.goodpostal.com/mcp/pricing"
+    }
+  ]
+}
