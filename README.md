@@ -8,7 +8,7 @@ This repository is the public listing for GoodPostal's two MCP servers. The serv
 
 | Server | Address | Login | Tools |
 |---|---|---|---|
-| GoodPostal | `https://mcp.goodpostal.com/mcp/goodpostal` | OAuth 2.1 with PKCE, starts automatically in your browser | 57 |
+| GoodPostal | `https://mcp.goodpostal.com/mcp/goodpostal` | OAuth 2.1 with PKCE, starts automatically in your browser | 65 |
 | GoodPostal Pricing | `https://mcp.goodpostal.com/mcp/pricing` | None | 3 |
 
 Transport is Streamable HTTP for both. The GoodPostal server publishes OAuth discovery at `/.well-known/oauth-protected-resource`, so any client that follows the MCP authorization spec signs in without keys to copy.
@@ -48,11 +48,12 @@ Full setup guide, with screenshots: https://goodpostal.com/docs/ai-integration
 
 ## What the GoodPostal server can do
 
-- **Contacts and groups**: search, create, and update contacts, manage groups, add contacts to groups by filter, define custom fields.
+- **Contacts and groups**: search, create, and update contacts, manage groups including smart groups built from rules, add contacts to groups by filter, define custom fields.
 - **Templates**: list, create, update, and preview email templates built from a library of 90 components, choose a design direction, send a test email.
 - **Images**: upload or import images, create gradient, icon, and transition images, manage folders.
-- **Campaigns**: create, update, review, and send campaigns, change campaign status, read campaign analytics.
-- **Sending setup**: list connected sending services, manage sender identities, set and verify the tracking domain, update email branding.
+- **Campaigns**: create, update, review, and send campaigns, change campaign status, read campaign analytics, publish a campaign to the workspace's public archive.
+- **Signup forms**: list, create, and update subscription forms, get the embed code.
+- **Sending setup**: list connected sending services, manage sender identities (a sender at a domain the workspace has already verified needs no confirmation email), set and verify the tracking domain, update email branding.
 - **Workspace**: plan usage, brand guidelines, workspace info, documentation search.
 
 Every write goes through the same permission checks as the dashboard. A workspace's data is never visible to another workspace.

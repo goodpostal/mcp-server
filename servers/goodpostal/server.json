@@ -3,7 +3,7 @@
   "name": "io.github.goodpostal/goodpostal",
   "title": "GoodPostal",
   "description": "Email marketing with your own sending service: contacts, templates, campaigns, analytics.",
-  "version": "3.3.0",
+  "version": "2.4.0",
   "websiteUrl": "https://goodpostal.com/docs/ai-integration",
   "repository": {
     "url": "https://github.com/goodpostal/mcp-server",

@@ -3,7 +3,7 @@
   "name": "io.github.goodpostal/pricing",
   "title": "GoodPostal Pricing",
   "description": "Free, no-login pricing data for 13 email platforms and sending services, refreshed weekly.",
-  "version": "3.3.0",
+  "version": "1.0.0",
   "websiteUrl": "https://goodpostal.com/pricing",
   "repository": {
     "url": "https://github.com/goodpostal/mcp-server",
